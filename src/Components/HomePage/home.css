@@ -1,0 +1,142 @@
+
+.home-page{
+    margin: 6rem 0;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-bar>input{
+    background-color: #94b2df;
+    color: aliceblue;
+    padding: .2rem .4rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    height: 3rem;
+    width: 30rem;
+}
+.search-btn{
+    width: 5rem;
+    height: 3.4rem;
+    background-color: #94b2df;
+    margin-left: .5rem;
+    color: aliceblue;
+    padding: .2rem .4rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+/* .search-bar:active{
+    border: none;
+    color: aliceblue;
+    padding: .2rem .4rem;
+    border-radius: 5px;
+    height: 3rem;
+    width: 30rem;
+} */
+
+.view-temp{
+    /* background-color: #94b2df; */
+    width: fit-content;
+    margin: 2rem auto;
+    border-radius: 5px;
+    
+}
+
+.img-and-temp{
+    /* background-color: antiquewhite; */
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-and-temp>img{
+    width: 10rem;
+    height: 10rem;
+}
+.temperature{
+    /* background-color: antiquewhite; */
+    width: 10rem;
+    height: 10rem;
+    border-left: 2px solid #94b2df ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.temperature>h2{
+    font-size: 3.5rem;
+}
+.temperature sup{
+    font-size: 1.5rem;
+}
+
+.place-and-country{
+    height:2rem ;
+    border-bottom: 2px solid #94b2df;
+    /* background-color: #55422a; */
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.time{
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+    text-align: center;
+}
+.feels-and-humidity{
+    border-top: 2px solid #94b2df;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.feels-and-humidity>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.forecast{
+    border-top: 2px solid #94b2df;
+    margin: 1rem 2rem;
+}
+.forecast-container{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 2rem;
+}
+.sub-heading{
+    color: aliceblue;
+}
+.forecast-box{
+    width: 5rem;
+    height: 7rem;
+    background-color: #94b2df;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: .4rem .8rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.forecast-box>img{
+    width: 1.5rem;
+}
+
+
+/* styling aboutus area */
+.about-us{
+    border-top: 2px solid #94b2df;
+    margin: 2rem ;
+    color: aliceblue;
+}
